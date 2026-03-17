@@ -78,3 +78,11 @@ Após isso, instalamos o Visual Studio Code (VS Code) e o conectamos ao GitHub, 
     - flutter run -v 
         - build do app (apk)
     
+- gerenciamento de dependencias do PubSpec()
+    - instalação
+        - flutter pub add nome_dependencia
+    - baixar e instalar dependencias projetadas
+        - flutter pub get
+    - outros comandos do flutter pub(dependencias)
+        - flutter pub outdated (verifica se as dependências estão desatualizadas)
+        - flutter pub upgrade (atualiza as dependências do flutter pub)
