@@ -86,3 +86,29 @@ Após isso, instalamos o Visual Studio Code (VS Code) e o conectamos ao GitHub, 
     - outros comandos do flutter pub(dependencias)
         - flutter pub outdated (verifica se as dependências estão desatualizadas)
         - flutter pub upgrade (atualiza as dependências do flutter pub)
+
+### Estrutura de um Aplicativo
+
+#### A Hierarquia de Árvore
+
+Gráfico com demonstração da hierarquia
+
+```mermaid
+
+graph BT
+
+    MA ['MaterialApp']
+    STL ['StateLass Widget']
+    STF ['Stateful Widget']
+    SC ['Scaffold']
+    ABar ['AppBar']
+    BNBar ['BottonNavigationBar']
+    DW ['Drawer']
+    FAB ['FloatActionButton']
+    SB ['SnackBar']
+
+    MA --> STL & STF
+    STF & STL --> SC
+    SC --> ABar & BD & BNBar &DW & FAB & SB
+
+```
