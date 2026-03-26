@@ -110,6 +110,6 @@ graph BT
 
     MA --> STL & STF
     STF & STL --> SC
-    SC --> ABar & BD & BNBar &DW & FAB & SB
+    SC --> ABar & BD & BNBar & DW & FAB & SB
 
 ```
