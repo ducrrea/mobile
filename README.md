@@ -97,15 +97,16 @@ Gráfico com demonstração da hierarquia
 
 graph BT
 
-    MA ['MaterialApp']
-    STL ['StateLass Widget']
-    STF ['Stateful Widget']
-    SC ['Scaffold']
-    ABar ['AppBar']
-    BNBar ['BottonNavigationBar']
-    DW ['Drawer']
-    FAB ['FloatActionButton']
-    SB ['SnackBar']
+    MA['MaterialAPP']
+    STL['StateLess Widget']
+    STF['StateFul Widget']
+    SC['Scaffold']
+    ABar['AppBar']
+    BD["Body"]
+    BNBar["BottonNavigationBar"]
+    DW["Drawer"]
+    FAB["FloatActionButton"]
+    SB["SnackBar"]
 
     MA --> STL & STF
     STF & STL --> SC
