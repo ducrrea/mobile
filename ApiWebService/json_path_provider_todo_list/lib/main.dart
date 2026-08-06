@@ -12,7 +12,7 @@ void main(List<String> args) {
       primarySwatch: Colors.pink,
       //Tema padrão
       appBarTheme: AppBarTheme(
-        backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+        backgroundColor: Colors.pinkAccent,
         foregroundColor: Colors.white,
         elevation: 2, //
       ),
