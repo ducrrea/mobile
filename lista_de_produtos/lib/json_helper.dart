@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 
 class JsonHelper {
-  // Método privado para localizar ou criar o arquivo 'produtos.json'
+  // Método privado para localizar ou criar o arquivo "produtos.json"
   static Future<File> _getArquivo() async {
     final diretorio = await getApplicationDocumentsDirectory();
     return File("${diretorio.path}/produtos.json");
