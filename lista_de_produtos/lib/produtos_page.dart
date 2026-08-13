@@ -95,7 +95,6 @@ class _ProdutosPageState extends State<ProdutosPage> {
               height: 48,
               child: ElevatedButton.icon(
                 onPressed: _salvarProduto,
-                icon: const Icon(Icons.save),
                 label: const Text("Salvar Produto"),
               ),
             ),
