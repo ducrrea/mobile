@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = "http://localhost:3000"; //URL da API
+  static const String baseUrl = "http://10.87.38.142"; //URL da API
   //obs: declaração de atributos e métodos usa-se lowerCamelCase
   //obs: declaração de classes usa-se UpperCamelCase
 
